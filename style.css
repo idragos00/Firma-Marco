@@ -9,11 +9,13 @@
 
 .container {
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  padding: 30px 0; }
   .container img {
-    padding: 20px;
+    padding: 20px 0;
     margin: auto;
     justify-content: center;
+    align-items: center;
     border-radius: 20px; }
   .container h1 {
     font-family: "Open Sans", sans-serif;
